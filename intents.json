@@ -1,0 +1,275 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": [
+        "Oi",
+        "Olá",
+        "Como vai você?",
+        "Tem alguém aí?",
+        "Olá",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite",
+        "Oi, tudo bem?",
+        "E aí?",
+        "Olá, como posso ajudar?",
+        "Oi, como posso ajudar?",
+        "Olá, qual é o seu nome?",
+        "Oi, quem está aí?",
+        "Oi, preciso de ajuda",
+        "Oi, estou com dúvidas"
+      ],
+      "responses": [
+        "Oi! Como posso ajudar?",
+        "Olá, obrigado por visitar!",
+        "Olá! Como posso ajudar hoje?",
+        "Oi, tudo bem? Como posso ajudar?",
+        "Olá! Estou aqui para ajudar.",
+        "Bom dia! Como posso ajudar?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": [
+        "Tchau",
+        "Até logo",
+        "Adeus",
+        "Até mais tarde",
+        "Até amanhã",
+        "Tenha um bom dia",
+        "Tenha uma boa tarde",
+        "Tenha uma boa noite",
+        "Nos vemos em breve",
+        "Até a próxima",
+        "Fique bem",
+        "Adeus, obrigado pela ajuda"
+      ],
+      "responses": [
+        "Até logo! Obrigado pela visita.",
+        "Tenha um ótimo dia!",
+        "Tchau! Volte sempre.",
+        "Até mais tarde!",
+        "Até amanhã! Fique bem.",
+        "Nos vemos em breve! Tenha um bom dia."
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": [
+        "Obrigado",
+        "Obrigada",
+        "Obrigado pela ajuda",
+        "Muito obrigado!",
+        "Agradeço muito",
+        "Isso foi útil",
+        "Você foi muito útil"
+      ],
+      "responses": [
+        "Feliz em ajudar!",
+        "A qualquer momento!",
+        "Meu prazer!",
+        "Fico feliz por poder ajudar.",
+        "Sempre às ordens!",
+        "Estou aqui para ajudar sempre que precisar."
+      ]
+    },
+    {
+      "tag": "servicos",
+      "patterns": [
+        "Quais serviços você oferece?",
+        "Que tipos de serviços existem?",
+        "O que você faz?",
+        "Posso saber mais sobre seus serviços?",
+        "Quero informações sobre seus serviços"
+      ],
+      "responses": [
+        "Eu ofereço uma variedade de serviços, incluindo desenvolvimento de sites, design gráfico, marketing digital e muito mais.",
+        "Meus serviços incluem desenvolvimento web, design de logotipo, otimização de mecanismos de pesquisa (SEO) e consultoria de marketing."
+      ]
+    },
+    {
+      "tag": "pagamentos",
+      "patterns": [
+        "Vocês aceitam cartão de crédito?",
+        "Aceitam Mastercard?",
+        "Posso pagar com Paypal?",
+        "Só aceitam dinheiro?",
+        "Quais métodos de pagamento vocês aceitam?"
+      ],
+      "responses": [
+        "Nós aceitamos cartões de crédito, incluindo Visa e Mastercard, bem como Paypal.",
+        "Aceitamos pagamentos com cartão de crédito, Paypal, transferência bancária e dinheiro."
+      ]
+    },
+    {
+      "tag": "entrega",
+      "patterns": [
+        "Quanto tempo demora para a entrega do projeto?",
+        "Quanto tempo demora o envio do projeto?",
+        "Quando recebo meu projeto?",
+        "Qual é o prazo de entrega?"
+      ],
+      "responses": [
+        "O prazo de entrega varia dependendo do tipo de projeto. Normalmente, leva de 2 a 4 semanas para conclusão.",
+        "Geralmente, o projeto é entregue dentro de 2 a 4 semanas após a confirmação do pedido."
+      ]
+    },
+    {
+      "tag": "engracado",
+      "patterns": [
+        "Conte uma piada!",
+        "Me conte algo engraçado!",
+        "Você sabe uma piada?"
+      ],
+      "responses": [
+        "Por que os desenvolvedores não gostam de sair ao sol? Eles não querem ter um bronzeado de CSS.",
+        "Por que os designers sempre estão perdidos? Porque eles saíram do caminho feliz (path).",
+        "Por que o programador sempre tem frio? Porque ele sempre abre a janela do navegador.",
+        "Qual é o cachorro que gosta de HTML? O Dog-HTML.",
+        "O que aconteceu com o programador que morreu no restaurante? Ele não conseguiu escapar do loop infinito."
+      ]
+    },
+    {
+      "tag": "desenvolvimento_de_sites",
+      "patterns": ["Desenvolvimento de sites", "Quero um site", "Preciso de um site", "Criação de site"],
+      "responses": ["Ótimo! Você está interessado em desenvolvimento de sites. Podemos criar um site responsivo e atraente para você. Vamos discutir mais detalhes."]
+    },
+    {
+      "tag": "design",
+      "patterns": ["Design", "Preciso de um designer", "Quero um logotipo", "Design gráfico"],
+      "responses": ["Excelente! Você está procurando serviços de design. Nós podemos ajudar a criar designs incríveis para o seu negócio. Vamos discutir mais sobre o que você precisa."]
+    },
+    {
+      "tag": "freelancer",
+      "patterns": ["Freelancer", "Preciso de um freelancer", "Trabalho freelancer"],
+      "responses": ["Perfeito! Você está procurando um freelancer. Estou disponível para trabalhar em projetos como freelancer. Vamos discutir mais sobre o seu projeto."]
+    },
+    {
+      "tag": "precos",
+      "patterns": [
+        "Quanto custa um site?",
+        "Qual é o preço dos seus serviços?",
+        "Quanto vou pagar pelo design?",
+        "Tenho um orçamento limitado, o que posso obter?"
+      ],
+      "responses": [
+        "Os preços variam dependendo do escopo do projeto. Podemos discutir os detalhes e fornecer um orçamento personalizado para atender às suas necessidades.",
+        "Oferecemos pacotes de serviços para atender a diferentes orçamentos. Entre em contato conosco para obter uma cotação personalizada."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Tenho um feedback para você",
+        "Gostaria de deixar um comentário",
+        "Tenho uma sugestão para melhorar"
+      ],
+      "responses": [
+        "Ficaríamos felizes em ouvir seu feedback! Por favor, compartilhe suas sugestões ou comentários conosco para que possamos melhorar nossos serviços.",
+        "Seu feedback é muito importante para nós! Por favor, deixe-nos saber como podemos melhorar e atender melhor às suas necessidades."
+      ]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": [
+        "Preciso de ajuda",
+        "Estou com dificuldades",
+        "Posso obter assistência?",
+        "Não sei o que fazer"
+      ],
+      "responses": [
+        "Claro! Estou aqui para ajudar. Por favor, me diga qual é o seu problema e farei o meu melhor para encontrar uma solução.",
+        "Não se preocupe, estou aqui para ajudar. Por favor, descreva o seu problema e tentaremos resolvê-lo juntos."
+      ]
+    },
+    {
+      "tag": "horario_funcionamento",
+      "patterns": [
+        "Qual é o seu horário de funcionamento?",
+        "Quando você está aberto?",
+        "Em que horários você está disponível?"
+      ],
+      "responses": [
+        "Estamos abertos de segunda a sexta-feira, das 9h às 18h. Entre em contato conosco durante esse horário para obter assistência."
+      ]
+    },
+    {
+      "tag": "localizacao",
+      "patterns": [
+        "Onde você está localizado?",
+        "Qual é o seu endereço?",
+        "Como posso encontrar você?"
+      ],
+      "responses": [
+        "Estamos localizados na Rua Principal, 123, Centro, Cidade. Você pode nos encontrar facilmente usando o Google Maps ou outro serviço de navegação."
+      ]
+    },
+    {
+      "tag": "promocao",
+      "patterns": [
+        "Você tem alguma promoção?",
+        "Existem ofertas especiais?",
+        "Quais são os descontos disponíveis?"
+      ],
+      "responses": [
+        "Atualmente, temos uma promoção especial em nossos serviços de desenvolvimento de sites! Entre em contato para mais detalhes."
+      ]
+    },
+    {
+      "tag": "suporte_tecnico",
+      "patterns": [
+        "Preciso de suporte técnico",
+        "Estou com problemas técnicos",
+        "Tenho uma dúvida técnica"
+      ],
+      "responses": [
+        "Nosso suporte técnico está disponível para ajudar com quaisquer problemas ou dúvidas técnicas que você possa ter. Entre em contato conosco para assistência imediata."
+      ]
+    },
+    {
+      "tag": "comentarios",
+      "patterns": [
+        "Tenho um comentário sobre o seu serviço",
+        "Gostaria de compartilhar minha opinião",
+        "Posso deixar um comentário?"
+      ],
+      "responses": [
+        "Agradecemos seus comentários! Por favor, compartilhe suas opiniões conosco para que possamos continuar melhorando nossos serviços."
+      ]
+    },
+    {
+      "tag": "consultoria",
+      "patterns": [
+        "Preciso de consultoria",
+        "Gostaria de contratar um consultor",
+        "Quero discutir uma estratégia"
+      ],
+      "responses": [
+        "Oferecemos serviços de consultoria para ajudar a desenvolver estratégias eficazes para o seu negócio. Entre em contato para marcar uma consulta."
+      ]
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [
+        "Posso ver seu portfólio?",
+        "Você tem exemplos de trabalhos anteriores?",
+        "Onde posso encontrar exemplos de seu trabalho?"
+      ],
+      "responses": [
+        "Sim, temos um portfólio de projetos anteriores que podemos compartilhar com você. Por favor, entre em contato para ver nossos trabalhos."
+      ]
+    },
+    {
+      "tag": "experiencia",
+      "patterns": [
+        "Qual é a sua experiência?",
+        "Há quanto tempo você está no mercado?",
+        "Quanto tempo você tem trabalhado nessa área?"
+      ],
+      "responses": [
+        "Temos anos de experiência no mercado e uma equipe experiente pronta para ajudar com seus projetos."
+      ]
+    }
+  ]
+}
